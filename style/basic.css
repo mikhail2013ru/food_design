@@ -12,13 +12,11 @@ html {
 body {
     min-width: 320px;
     min-height: 100vh;
-
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: var(--color-text); /*цвет под ваш проект*/
-    background-color: #E5E5E5; /*цвет под ваш проект*/
-    line-height: 23px;
+    color: var(--color-text);
+    /* line-height: 23px; */
 }
 
 img {
