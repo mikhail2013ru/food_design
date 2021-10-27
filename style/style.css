@@ -1,4 +1,7 @@
 @import 'basic.css';
 @import 'variables.css';
 @import 'fonts.css';
+@import 'normalize.css';
+@import 'button.css';
 @import 'header.css';
+@import 'slider.css';
