@@ -1,0 +1,58 @@
+.sweet-basket {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/card-offers/card-1.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.min-strength {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/card-offers/card-2.jpg');
+    background-repeat: no-repeat;
+}
+
+.card-offers__container {    
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 54px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-height: 380px;
+    border-radius: 20px;
+    max-width: 568px;
+    width: 100%;    
+    padding: 36px 0 0 32px;
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-bottom: 21px;
+}
+
+.card__subtitle {
+    font-weight: 500;
+    line-height: 23px;
+    margin-bottom: 72px;
+}
+
+.card__price {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+
+.card__price-delivery {
+    font-weight: 500;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1250px) {
+    .card-offers__container {
+        justify-content: center; 
+    }
+}

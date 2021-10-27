@@ -13,3 +13,17 @@
     background-color: var(--color-btn-orange-hov);
 }
 
+.button__btn--gray {
+    max-width: 225px;
+    font-size: 16px;
+    color: var(--color-text);
+    background-color: transparent;
+    border: none;
+}
+
+.button__btn--gray:hover {
+    border-radius: 25px;
+    background-color: var(--color-text);
+    color: var(--color-btn-gray);
+    border: 2px solid var(--color-btn-gray);
+}

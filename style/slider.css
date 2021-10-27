@@ -9,7 +9,6 @@
     padding: 76px 0 0 101px;
     color: var(--color-text);
     font-weight: 700;
-
 }
 
 .slide__cart-1 {
@@ -30,4 +29,30 @@
     line-height: 23px;
     margin-bottom: 32px;
     max-width: 388px;
+}
+
+@media (max-width: 768px) {
+    .slide {
+        padding: 56px 0 0 80px;    
+    }
+}
+
+@media (max-width: 480px) {
+    .slide__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    .slide {
+        padding: 76px 0 0 50px;   
+    }
+
+    .slide__title {
+        font-size: 25px;
+    }
+
+    .slide__text {
+        max-width: 250px;
+    }
 }
