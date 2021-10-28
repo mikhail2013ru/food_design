@@ -1,0 +1,84 @@
+.delivery {
+
+}
+
+.delivery__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: var(--color-black);
+    margin-bottom: 47px;
+
+}
+
+.food-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+}
+
+.food-card {
+    position: relative;
+    min-width: 275px;
+    /* min-width: 312px; */
+    min-height: 182px;
+}
+
+.food-card__badge {
+    position: absolute;
+    top: 16px;
+    left: 10px;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--color-middleGray);
+    background-color: var(--color-green);
+    border-radius: 30px;
+}
+
+.food-card__badge--green {
+    color: var(--color-text);
+    background-color: var(--color-liteGreen);
+}
+
+.food-card__badge--red {
+    background-color: var(--color-red);
+    color: var(--color-text);
+}
+
+.food-card__badge--orange {
+    background-color: var(--color-darkOrange);
+    color: var(--color-text);
+}
+
+.food-card__badge--middleRed {
+    background-color: var(--color-middleRed);
+    color: var(--color-text);
+}
+
+.food-card__badge--liteYellow {
+    background-color: var(--color-liteYellow);
+    color: var(--color-middleGray);
+}
+
+.food-card__badge--liteWhite {
+    color: var(--color-middleGray);
+    background-color: var(--color-liteWhite);
+}
+
+@media (max-width: 1246px) {
+    .delivery__title {
+        text-align: center;
+    }
+
+    .food-cards {
+        justify-content: space-evenly; 
+    }
+}
+
+@media (max-width: 641px) {
+    .delivery__title {
+        font-size: 26px;
+    }
+}
