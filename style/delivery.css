@@ -1,5 +1,5 @@
 .delivery {
-
+    margin-bottom: 100px;
 }
 
 .delivery__title {
@@ -19,9 +19,9 @@
 
 .food-card {
     position: relative;
-    min-width: 275px;
-    /* min-width: 312px; */
-    min-height: 182px;
+    /* max-width: 275px; */
+    width: calc(100% * 3 / 12 - 30px);
+    /* min-height: 182px; */
 }
 
 .food-card__badge {
@@ -35,6 +35,10 @@
     color: var(--color-middleGray);
     background-color: var(--color-green);
     border-radius: 30px;
+}
+
+.food-card__image {
+    /* width: 100%; */
 }
 
 .food-card__badge--green {
@@ -73,7 +77,7 @@
     }
 
     .food-cards {
-        justify-content: space-evenly; 
+        /* justify-content: space-evenly;  */
     }
 }
 
