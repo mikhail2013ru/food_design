@@ -15,6 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px 30px;
+    justify-content: space-between;
 }
 
 .food-card {
@@ -22,6 +23,7 @@
     /* max-width: 275px; */
     width: calc(100% * 3 / 12 - 30px);
     /* min-height: 182px; */
+
 }
 
 .food-card__badge {
@@ -81,8 +83,34 @@
     }
 }
 
+@media (max-width: 768px) {
+    .food-card {
+        width: calc(100% * 4 / 12 - 30px);
+    }
+}
+
 @media (max-width: 641px) {
     .delivery__title {
         font-size: 26px;
+    }
+}
+
+@media (max-width: 576px) {
+    .delivery {
+        margin-bottom: 75px;
+    }
+
+    .food-card {
+        width: calc(100% * 6 / 12 - 15px);
+    }
+}
+
+@media (max-width: 320px) {
+    .food-cards {
+        justify-content: center;
+    }
+
+    .food-card {
+        width: calc(100% * 12 / 12 - 15px);
     }
 }
