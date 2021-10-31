@@ -136,7 +136,7 @@
     }
 
     .food-categories-cards__card {
-        width: calc(100% * 12 / 12 - 15px);
+        width: 100%;
     }
 }
 

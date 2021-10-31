@@ -39,10 +39,6 @@
     border-radius: 30px;
 }
 
-.food-card__image {
-    /* width: 100%; */
-}
-
 .food-card__badge--green {
     color: var(--color-text);
     background-color: var(--color-liteGreen);
@@ -77,10 +73,6 @@
     .delivery__title {
         text-align: center;
     }
-
-    .food-cards {
-        /* justify-content: space-evenly;  */
-    }
 }
 
 @media (max-width: 768px) {
@@ -111,6 +103,10 @@
     }
 
     .food-card {
-        width: calc(100% * 12 / 12 - 15px);
+        width: 100%;
+    }
+
+    .food-card__image {
+        width: 100%;
     }
 }
