@@ -18,7 +18,7 @@
     font-size: 16px;
     color: var(--color-text);
     background-color: transparent;
-    border: none;
+    /* border: none; */
 }
 
 .button__btn--gray:hover {
