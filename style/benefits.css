@@ -53,6 +53,24 @@
     max-width: 223px;
 }
 
+@media (max-width: 992px) {
+    .benefits {
+        padding-bottom: 170px;;
+    }
+}
+
+@media (max-width: 768px) {
+    .benefits {
+        padding-bottom: 130px;;
+    }
+}
+
+@media (max-width: 576px) {
+    .benefits {
+        padding-bottom: 100px;;
+    }
+}
+
 @media (max-width: 768px) {
     .benefits-cards__card {
         width: calc(100% * 4 / 12 - 30px);
