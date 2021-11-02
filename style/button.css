@@ -16,26 +16,18 @@
 .button__btn--gray {
     max-width: 225px;
     font-size: 16px;
-    /* color: var(--color-text); */
+    color: var(--color-text);
     background-color: transparent;
-    /* background-color: gray; */
-    /* border: 2px solid transparent; */
 }
 
 .button__btn--gray:hover {
-    /* border-radius: 25px; */
-    background-color: red;
-    /* background-color: var(--color-text); */
-    /* color: var(--color-btn-gray); */
-    /* color: blue; */
-    /* border: 2px solid transparent; */
+    color: var(--color-darkGray);
+    background-color: var(--color-text);
 }
 
 .button__btn--orange {
     padding: 16px 0px 15px 0px;
-    /* border: 2px solid var(--color-orange); */
-    border: 2px solid transparent;
-    border-radius: 33px;
+    border: 2px solid var(--color-orange);
     color: var(--color-orange);
     font-size: 16px;
     background-color: var(--color-text);
@@ -43,7 +35,7 @@
 }
 
 .button__btn--orange:hover {
-    /* color: var(--color-text); */
+    color: var(--color-text);
 }
 
 .button__btn--orangeFixWidth {
