@@ -75,6 +75,10 @@
     .food-card {
         width: calc(100% * 4 / 12 - 30px);
     }
+
+    .food-cards {
+        justify-content: flex-start;
+    }
 }
 
 @media (max-width: 641px) {
