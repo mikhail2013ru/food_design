@@ -21,7 +21,6 @@
 .benefits-cards__card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;    
     width: calc(100% * 3 / 12 - 30px);
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
@@ -44,6 +43,7 @@
 
 .benefits-cards__card:hover .benefits-cards__icon-svg {
     fill: var(--color-text);
+    filter: brightness(0) invert(1);
 }
 
 .benefits-cards__icon {
@@ -51,7 +51,7 @@
 } 
 
 .benefits-cards__icon-svg {
-    fill: #F37321;
+    fill: var(--color-orange);
 }
 
 .benefits-cards__description {
