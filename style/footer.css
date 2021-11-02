@@ -103,7 +103,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .footer__list {
         flex-direction: column;
         align-items: center;

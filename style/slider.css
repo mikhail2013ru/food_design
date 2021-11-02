@@ -38,18 +38,13 @@
 }
 
 @media (max-width: 480px) {
+    .slide {
+        padding: 76px 0 0 50px;   
+    }
+
     .slide__title {
         font-size: 30px;
-    }
-}
-
-@media (max-width: 380px) {
-    .slide {
-        padding: 76px 0 0 25px;   
-    }
-
-    .slide__title {
-        font-size: 25px;
+        line-height: 35px;
     }
 
     .slide__text {
@@ -58,7 +53,11 @@
 }
 
 @media (max-width: 320px) {
+    .slide {
+        padding: 76px 0 0 25px;   
+    }
+
     .slide__title {
-        line-height: 35px;
+        font-size: 25px;
     }
 }

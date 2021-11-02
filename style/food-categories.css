@@ -101,7 +101,7 @@
 
 @media (max-width: 992px) {
     .food-categories-cards__card {
-        width: calc(100% * 4 / 12 - 30px);
+        width: calc(100% * 6 / 12 - 30px);
     }
 }
 
@@ -123,11 +123,6 @@
     .food-categories-cards {
         justify-content: space-between;
     }
-
-    .food-categories-cards__card {
-        width: calc(100% * 6 / 12 - 30px);
-    }
-
 }
 
 @media (max-width: 576px) {

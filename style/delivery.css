@@ -8,7 +8,6 @@
     line-height: 23px;
     color: var(--color-black);
     margin-bottom: 47px;
-
 }
 
 .food-cards {
@@ -20,10 +19,7 @@
 
 .food-card {
     position: relative;
-    /* max-width: 275px; */
     width: calc(100% * 3 / 12 - 30px);
-    /* min-height: 182px; */
-
 }
 
 .food-card__badge {
@@ -97,7 +93,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .food-cards {
         justify-content: center;
     }
